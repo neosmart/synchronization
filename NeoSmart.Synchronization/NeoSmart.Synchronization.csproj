@@ -9,6 +9,7 @@
 		<Copyright>2017-2021</Copyright>
 		<Authors>Mahmoud Al-Qudsi</Authors>
 		<Company>NeoSmart Technologies</Company>
+		<PackageId>NeoSmart.Synchronization</PackageId>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl></PackageProjectUrl>
 		<RepositoryUrl>https://github.com/neosmart/synchronization</RepositoryUrl>
@@ -16,6 +17,12 @@
 		<PackageTags>ScopedMutex, AsyncLock, CountdownEvent</PackageTags>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>NeoSmart.Synchronization.snk</AssemblyOriginatorKeyFile>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
 
 	<ItemGroup>
