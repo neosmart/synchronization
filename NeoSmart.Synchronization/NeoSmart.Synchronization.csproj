@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.3;net5.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>Assorted async-friendly mutexes and locks. Includes a scoped mutex (ScopedMutex) for cross-platform key-based locking, async countdown event (CountdownEvent), and others.</Description>
+		<Copyright>2017-2021</Copyright>
+		<Authors>Mahmoud Al-Qudsi</Authors>
+		<Company>NeoSmart Technologies</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl>https://github.com/neosmart/synchronization</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>ScopedMutex, AsyncLock, CountdownEvent</PackageTags>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>NeoSmart.Synchronization.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NeoSmart.AsyncLock" Version="3.1.0" />
+	</ItemGroup>
+
+</Project>
